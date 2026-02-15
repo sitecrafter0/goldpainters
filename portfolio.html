@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Goldpainters Portfolio - View our past projects and construction work showcasing our expertise.">
+  <title>Portfolio - Goldpainters</title>
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230B1F3A' width='100' height='100'/><text x='50' y='75' font-size='60' font-weight='bold' fill='%23D4AF37' text-anchor='middle'>G</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ====== NAVIGATION ====== -->
+<nav>
+  <div class="nav-container">
+    <div class="nav-logo">🏗 GOLDPAINTERS</div>
+    <button class="nav-toggle">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ====== PAGE HEADER ====== -->
+<section class="hero" style="min-height: 500px; background: linear-gradient(135deg, #0B1F3A 0%, #1a3a5c 100%); color: white; position: relative; overflow: hidden; display: flex; align-items: center;">
+  <div style="position: absolute; top: -50%; right: -10%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div style="position: absolute; top: 50%; left: -5%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div class="hero-content" style="position: relative; z-index: 1; text-align: center;">
+    <span style="display: inline-block; background-color: rgba(212, 175, 55, 0.3); color: var(--primary-gold); padding: 8px 16px; border-radius: 50px; font-weight: 600; font-size: 0.9rem; margin-bottom: var(--spacing-md); border: 1px solid rgba(212, 175, 55, 0.5); animation: fadeInUp 0.6s ease-out;">GALLERY</span>
+    <h1 style="font-size: 3.5rem; animation: fadeInUp 0.6s ease-out 0.1s both;">Our Portfolio</h1>
+    <p class="tagline" style="font-size: 1.2rem; animation: fadeInUp 0.6s ease-out 0.2s both;">Showcasing Our Best Work & Successful Projects</p>
+  </div>
+</section>
+
+<!-- Portfolio Grid -->
+<div class="grid grid-3">
+
+  <!-- Painting -->
+  <div class="portfolio-item fade-in" data-category="painting">
+    <img src="gld1.jpeg" alt="Painting Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Tiling -->
+  <div class="portfolio-item fade-in" data-category="tiling">
+    <img src="gld2.jpeg" alt="Tiling Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Renovations -->
+  <div class="portfolio-item fade-in" data-category="renovations">
+    <img src="gld3.jpeg" alt="Renovation Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Waterproofing -->
+  <div class="portfolio-item fade-in" data-category="waterproofing">
+    <img src="gld4.jpeg" alt="Waterproofing Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Paving -->
+  <div class="portfolio-item fade-in" data-category="paving">
+    <img src="gld5.jpeg" alt="Paving Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Drywall -->
+  <div class="portfolio-item fade-in" data-category="drywall">
+    <img src="gld6.jpeg" alt="Drywall Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Grandstone -->
+  <div class="portfolio-item fade-in" data-category="grandstone">
+    <img src="gld7.jpeg" alt="Grandstone Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Extra Painting -->
+  <div class="portfolio-item fade-in" data-category="painting">
+    <img src="gld8.jpeg" alt="Painting Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Extra Tiling -->
+  <div class="portfolio-item fade-in" data-category="tiling">
+    <img src="gld9.jpeg" alt="Tiling Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Extra Renovations -->
+  <div class="portfolio-item fade-in" data-category="renovations">
+    <img src="gld10.jpeg" alt="Renovation Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Extra Waterproofing -->
+  <div class="portfolio-item fade-in" data-category="waterproofing">
+    <img src="gld11.jpeg" alt="Waterproofing Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+  <!-- Extra Paving -->
+  <div class="portfolio-item fade-in" data-category="paving">
+    <img src="gld12.jpeg" alt="Paving Project"
+         style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px;">
+  </div>
+
+</div>
+
+
+<!-- ====== CTA SECTION ====== -->
+<section class="section" style="background: linear-gradient(135deg, #0B1F3A 0%, #1a3a5c 100%); color: white; text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: -30%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div style="position: absolute; bottom: -20%; left: -5%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div class="container" style="position: relative; z-index: 1;">
+    <div style="animation: fadeInUp 0.8s ease-out;">
+      <h2 style="color: white; margin-bottom: var(--spacing-md); font-size: 2.5rem; font-weight: 700;">Impressed By Our Work?</h2>
+      <p style="color: rgba(255,255,255,0.9); margin-bottom: var(--spacing-lg); font-size: 1.2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Let's create something amazing together. Contact us for your next project.</p>
+      <div style="display: flex; gap: var(--spacing-md); justify-content: center; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, var(--primary-gold) 0%, #f0c56b 100%); color: var(--very-dark-navy);"><strong>Get Started</strong></a>
+        <a href="index.html#services" class="btn btn-lg" style="background: rgba(255,255,255,0.1); border: 2px solid var(--primary-gold); color: var(--primary-gold); transition: all 0.3s ease;">View Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer style="background: linear-gradient(135deg, #0B1F3A 0%, #1a3a5c 100%); color: white; padding: var(--spacing-2xl) 0 var(--spacing-lg); border-top: 1px solid rgba(212, 175, 55, 0.3); position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: -50%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(212, 175, 55, 0.05) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div class="footer-content" style="position: relative; z-index: 1;">
+    <div class="footer-section" style="animation: fadeInUp 0.6s ease-out;">
+      <h3 style="color: var(--primary-gold); margin-bottom: var(--spacing-md); font-size: 1.3rem;">🏆 Goldpainters</h3>
+      <p style="color: rgba(255,255,255,0.8); line-height: 1.6; margin-bottom: var(--spacing-md);">Professional construction and finishing services for over 20 years. Building excellence. Delivering quality.</p>
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" class="social-icon" style="background: rgba(212, 175, 55, 0.2); border: 1px solid var(--primary-gold); color: var(--primary-gold); transition: all 0.3s ease; width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; font-weight: bold;">f</a>
+        <a href="https://instagram.com" target="_blank" class="social-icon" style="background: rgba(212, 175, 55, 0.2); border: 1px solid var(--primary-gold); color: var(--primary-gold); transition: all 0.3s ease; width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; margin-left: var(--spacing-sm);">📷</a>
+        <a href="https://twitter.com" target="_blank" class="social-icon" style="background: rgba(212, 175, 55, 0.2); border: 1px solid var(--primary-gold); color: var(--primary-gold); transition: all 0.3s ease; width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; margin-left: var(--spacing-sm);">𝕏</a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon" style="background: rgba(212, 175, 55, 0.2); border: 1px solid var(--primary-gold); color: var(--primary-gold); transition: all 0.3s ease; width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; margin-left: var(--spacing-sm);">in</a>
+      </div>
+    </div>
+
+    <div class="footer-section" style="animation: fadeInUp 0.6s ease-out 0.1s both;">
+      <h3 style="color: var(--primary-gold); margin-bottom: var(--spacing-md); font-size: 1.1rem;">🔗 Quick Links</h3>
+      <a href="index.html" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ Home</a>
+      <a href="about.html" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ About Us</a>
+      <a href="portfolio.html" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ Portfolio</a>
+      <a href="contact.html" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; transition: all 0.3s ease;">→ Contact</a>
+    </div>
+
+    <div class="footer-section" style="animation: fadeInUp 0.6s ease-out 0.2s both;">
+      <h3 style="color: var(--primary-gold); margin-bottom: var(--spacing-md); font-size: 1.1rem;">🛠️ Services</h3>
+      <a href="portfolio.html?filter=painting" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ Painting</a>
+      <a href="portfolio.html?filter=tiling" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ Tiling</a>
+      <a href="portfolio.html?filter=renovations" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; margin-bottom: var(--spacing-sm); transition: all 0.3s ease;">→ Renovations</a>
+      <a href="portfolio.html?filter=waterproofing" style="display: block; color: rgba(255,255,255,0.8); text-decoration: none; transition: all 0.3s ease;">→ Waterproofing</a>
+    </div>
+
+    <div class="footer-section" style="animation: fadeInUp 0.6s ease-out 0.3s both;">
+      <h3 style="color: var(--primary-gold); margin-bottom: var(--spacing-md); font-size: 1.1rem;">📞 Contact Us</h3>
+      <div class="footer-contact-item" style="margin-bottom: var(--spacing-sm); color: rgba(255,255,255,0.8);">
+        📧 <a href="mailto:ngcobosingiseni@gmail.com" style="color: var(--primary-gold); text-decoration: none; transition: all 0.3s ease;">ngcobosingiseni@gmail.com</a>
+      </div>
+      <div class="footer-contact-item" style="margin-bottom: var(--spacing-sm); color: rgba(255,255,255,0.8);">
+        📱 <a href="tel:+260631492685" style="color: var(--primary-gold); text-decoration: none; transition: all 0.3s ease;">063 149 2685</a>
+      </div>
+      <div class="footer-contact-item" style="color: rgba(255,255,255,0.8);">
+        📍 Lusaka, Zambia
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom" style="border-top: 1px solid rgba(212, 175, 55, 0.2); margin-top: var(--spacing-lg); padding-top: var(--spacing-lg); text-align: center; color: rgba(255,255,255,0.7); animation: fadeInUp 0.6s ease-out 0.4s both;">
+    <p><strong style="color: var(--primary-gold);">© 2024 Goldpainters.</strong> All rights reserved. | <strong>Building Excellence. Delivering Quality.</strong></p>
+  </div>
+</footer>
+
+<!-- ====== SCROLL TO TOP BUTTON ====== -->
+<div class="scroll-to-top">↑</div>
+
+<!-- ====== WHATSAPP BUTTON ====== -->
+<a href="#" class="whatsapp-btn">💬</a>
+
+<!-- ====== SCRIPTS ====== -->
+<script src="script.js"></script>
+
+</body>
+</html>
